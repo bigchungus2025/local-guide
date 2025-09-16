@@ -1,0 +1,235 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(to left, #000000, #2a32aa);
+}
+
+body > *:last-child {
+    margin-bottom: 0;
+}
+
+.line {
+    position: relative;
+    border-color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 1.5cm;
+    font-weight: bold;
+    color: rgb(227, 252, 0);
+    margin-left: 0.5cm;
+    /* Apply the new font here */
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 700; /* You can adjust this value */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+
+.titlecontainer {
+    position: relative;
+    background-image: linear-gradient(to right, #000000, #0111eb);
+    top: 0.4cm;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.tortugacontainer {
+    width: 10.2cm;
+}
+
+.tortugamaps {
+    width: 10cm;
+    height: 15cm;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 1px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.hrcontainer {
+    position: relative;
+}
+
+.espitcontainer {
+    width: 10.2cm;
+}
+
+.espitchupitosmaps {
+    width: 10cm;
+    height: 15cm;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 1px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.manamacontainer {
+    width: 10.2cm;
+}
+
+.manamamaps {
+    width: 10cm;
+    height: 15cm;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 1px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.tomasacontainer {
+    width: 10.2cm;
+}
+
+.tomasamaps {
+    width: 10cm;
+    height: 15cm;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 1px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.dublinerscontainer {
+    width: 10.2cm;    
+}
+
+.dublinersmaps {
+    width: 10cm;
+    height: 15cm;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 1px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.oconnellscontainer {
+    width: 10.2cm;
+}
+
+.oconnellsmaps {
+    width: 10cm;
+    height: 15cm;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 1px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.maincontentcontainer {
+    display: flex;
+    justify-content: flex-start; /* This put left the columns on the page */
+    gap: 0.8cm; /* Adjust the space between the two columns */
+    margin-top: 1cm; /* Adjust the space below the horizontal line */
+    margin-left: 1cm;
+}
+
+.column {
+    display: flex;
+    flex-direction: column; /* This stacks the images vertically within each column */
+    gap: 0.5cm; /* Adjust the vertical space between images */
+}
+
+.dialogbox1 {
+    align-items: center;
+    text-align: center;
+}
+
+.tpizza {
+    color: rgb(251, 255, 0);
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 900; /* You can adjust this value */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+        font-size: 45px;
+}
+
+.parrafotortuga1 {
+    color: rgb(255, 255, 255);
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 900; /* You can adjust this value */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+        font-size: 30px;
+}
+
+.parrafotortuga2 {
+    color: rgb(255, 255, 255);
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 900; /* You can adjust this value */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+        font-size: 30px;
+}
+
+.parrafotortuga3 {
+    color: rgb(255, 0, 0);
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 900; /* You can adjust this value */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+        font-size: 30px;
+}
+
+.parrafotortuga4 {
+    color: rgb(0, 68, 255);
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 900; /* You can adjust this value */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+        font-size: 30px;
+}
+
+.parrafotortuga5 {
+    color: rgb(0, 68, 255);
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 900; /* You can adjust this value */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+        font-size: 30px;
+}
+
+.pizzalist {
+    list-style-position:initial;
+    color: rgb(255, 230, 0);
+    font-family: "Bitcount Grid Double", system-ui;
+    font-weight: 900; /* You can adjust this value */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+        font-size: 35px;
+}
