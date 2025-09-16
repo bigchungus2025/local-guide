@@ -233,3 +233,24 @@ body > *:last-child {
         "ELXP" 0;
         font-size: 35px;
 }
+
+@media (max-width: 600px) {
+  /* This code will only apply to screens smaller than 600px wide */
+  .maincontentcontainer {
+    flex-direction: column; /* Stacks the columns vertically */
+    gap: 1cm;
+    align-items: center; /* Centers the content */
+  }
+
+  .column {
+    width: 100%; /* Makes the columns take full width */
+    gap: 0.5cm;
+  }
+
+  /* Adjust image sizes for better fit on mobile */
+  .tortugamaps, .espitchupitosmaps, .manamamaps,
+  .tomasamaps, .dublinersmaps, .oconnellsmaps {
+    width: 90%;
+    height: auto; /* Maintains aspect ratio */
+  }
+}
