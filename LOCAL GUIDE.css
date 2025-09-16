@@ -16,13 +16,12 @@ body > *:last-child {
 }
 
 .title {
-    font-size: 1.5cm;
+    font-size: 2.5rem; /* Converted from cm to rem */
     font-weight: bold;
     color: rgb(227, 252, 0);
-    margin-left: 0.5cm;
-    /* Apply the new font here */
+    margin-left: 0.5rem; /* Converted from cm to rem */
     font-family: "Bitcount Grid Double", system-ui;
-    font-weight: 700; /* You can adjust this value */
+    font-weight: 700;
     font-style: normal;
     font-variation-settings:
         "slnt" 0,
@@ -31,22 +30,25 @@ body > *:last-child {
         "ELXP" 0;
 }
 
-
 .titlecontainer {
     position: relative;
     background-image: linear-gradient(to right, #000000, #0111eb);
-    top: 0.4cm;
+    top: 0.4rem; /* Converted from cm to rem */
     text-align: center;
     border-radius: 2px;
 }
 
-.tortugacontainer {
-    width: 10.2cm;
+/* Updated all image container widths to percentages for responsiveness */
+.tortugacontainer, .espitcontainer, .manamacontainer,
+.tomasacontainer, .dublinerscontainer, .oconnellscontainer {
+    width: 45vw; /* Using viewport width for initial responsiveness */
 }
 
-.tortugamaps {
-    width: 10cm;
-    height: 15cm;
+/* Updated all image widths to percentages to scale with their containers */
+.tortugamaps, .espitchupitosmaps, .manamamaps,
+.tomasamaps, .dublinersmaps, .oconnellsmaps {
+    width: 100%; /* Image fills its container */
+    height: auto; /* Maintains aspect ratio */
     border-radius: 20px;
     border-style: inset;
     border-width: 1px;
@@ -57,84 +59,18 @@ body > *:last-child {
     position: relative;
 }
 
-.espitcontainer {
-    width: 10.2cm;
-}
-
-.espitchupitosmaps {
-    width: 10cm;
-    height: 15cm;
-    border-radius: 20px;
-    border-style: inset;
-    border-width: 1px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
-}
-
-.manamacontainer {
-    width: 10.2cm;
-}
-
-.manamamaps {
-    width: 10cm;
-    height: 15cm;
-    border-radius: 20px;
-    border-style: inset;
-    border-width: 1px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
-}
-
-.tomasacontainer {
-    width: 10.2cm;
-}
-
-.tomasamaps {
-    width: 10cm;
-    height: 15cm;
-    border-radius: 20px;
-    border-style: inset;
-    border-width: 1px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
-}
-
-.dublinerscontainer {
-    width: 10.2cm;    
-}
-
-.dublinersmaps {
-    width: 10cm;
-    height: 15cm;
-    border-radius: 20px;
-    border-style: inset;
-    border-width: 1px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
-}
-
-.oconnellscontainer {
-    width: 10.2cm;
-}
-
-.oconnellsmaps {
-    width: 10cm;
-    height: 15cm;
-    border-radius: 20px;
-    border-style: inset;
-    border-width: 1px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
-}
-
-
 .maincontentcontainer {
     display: flex;
-    justify-content: flex-start; /* This put left the columns on the page */
-    gap: 0.8cm; /* Adjust the space between the two columns */
-    margin-top: 1cm; /* Adjust the space below the horizontal line */
-    margin-left: 1cm;
+    justify-content: flex-start;
+    gap: 0.8rem; /* Converted from cm to rem */
+    margin-top: 1rem; /* Converted from cm to rem */
+    margin-left: 1rem;
 }
 
 .column {
     display: flex;
-    flex-direction: column; /* This stacks the images vertically within each column */
-    gap: 0.5cm; /* Adjust the vertical space between images */
+    flex-direction: column;
+    gap: 0.5rem; /* Converted from cm to rem */
 }
 
 .dialogbox1 {
@@ -142,115 +78,71 @@ body > *:last-child {
     text-align: center;
 }
 
+/* All font-related classes converted to rem for responsiveness */
 .tpizza {
     color: rgb(251, 255, 0);
     font-family: "Bitcount Grid Double", system-ui;
-    font-weight: 900; /* You can adjust this value */
+    font-weight: 900;
     font-style: normal;
     font-variation-settings:
         "slnt" 0,
         "CRSV" 0.5,
         "ELSH" 0,
         "ELXP" 0;
-        font-size: 45px;
+    font-size: 2.5rem;
 }
 
-.parrafotortuga1 {
-    color: rgb(255, 255, 255);
+.parrafotortuga1, .parrafotortuga2, .parrafotortuga3,
+.parrafotortuga4, .parrafotortuga5 {
     font-family: "Bitcount Grid Double", system-ui;
-    font-weight: 900; /* You can adjust this value */
+    font-weight: 900;
     font-style: normal;
     font-variation-settings:
         "slnt" 0,
         "CRSV" 0.5,
         "ELSH" 0,
         "ELXP" 0;
-        font-size: 30px;
-}
-
-.parrafotortuga2 {
-    color: rgb(255, 255, 255);
-    font-family: "Bitcount Grid Double", system-ui;
-    font-weight: 900; /* You can adjust this value */
-    font-style: normal;
-    font-variation-settings:
-        "slnt" 0,
-        "CRSV" 0.5,
-        "ELSH" 0,
-        "ELXP" 0;
-        font-size: 30px;
-}
-
-.parrafotortuga3 {
-    color: rgb(255, 0, 0);
-    font-family: "Bitcount Grid Double", system-ui;
-    font-weight: 900; /* You can adjust this value */
-    font-style: normal;
-    font-variation-settings:
-        "slnt" 0,
-        "CRSV" 0.5,
-        "ELSH" 0,
-        "ELXP" 0;
-        font-size: 30px;
-}
-
-.parrafotortuga4 {
-    color: rgb(0, 68, 255);
-    font-family: "Bitcount Grid Double", system-ui;
-    font-weight: 900; /* You can adjust this value */
-    font-style: normal;
-    font-variation-settings:
-        "slnt" 0,
-        "CRSV" 0.5,
-        "ELSH" 0,
-        "ELXP" 0;
-        font-size: 30px;
-}
-
-.parrafotortuga5 {
-    color: rgb(0, 68, 255);
-    font-family: "Bitcount Grid Double", system-ui;
-    font-weight: 900; /* You can adjust this value */
-    font-style: normal;
-    font-variation-settings:
-        "slnt" 0,
-        "CRSV" 0.5,
-        "ELSH" 0,
-        "ELXP" 0;
-        font-size: 30px;
+    font-size: 1.5rem;
 }
 
 .pizzalist {
-    list-style-position:initial;
+    list-style-position: inside;
     color: rgb(255, 230, 0);
+    padding-left: 1rem; /* Added padding to prevent overflow */
+}
+
+/* Applied font styles directly to the list items for correct rendering */
+.pizzalist li {
     font-family: "Bitcount Grid Double", system-ui;
-    font-weight: 900; /* You can adjust this value */
+    font-weight: 900;
     font-style: normal;
     font-variation-settings:
         "slnt" 0,
         "CRSV" 0.5,
         "ELSH" 0,
         "ELXP" 0;
-        font-size: 35px;
+    font-size: 1.8rem;
 }
 
+/* --- START OF RESPONSIVE MEDIA QUERIES --- */
 @media (max-width: 600px) {
-  /* This code will only apply to screens smaller than 600px wide */
-  .maincontentcontainer {
-    flex-direction: column; /* Stacks the columns vertically */
-    gap: 1cm;
-    align-items: center; /* Centers the content */
-  }
+    .maincontentcontainer {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        margin-left: 0;
+    }
 
-  .column {
-    width: 100%; /* Makes the columns take full width */
-    gap: 0.5cm;
-  }
+    .column {
+        width: 100%;
+        gap: 0.5rem;
+    }
 
-  /* Adjust image sizes for better fit on mobile */
-  .tortugamaps, .espitchupitosmaps, .manamamaps,
-  .tomasamaps, .dublinersmaps, .oconnellsmaps {
-    width: 90%;
-    height: auto; /* Maintains aspect ratio */
-  }
+    /* Adjusted container widths for mobile */
+    .tortugacontainer, .espitcontainer, .manamacontainer,
+    .tomasacontainer, .dublinerscontainer, .oconnellscontainer {
+        width: 90vw;
+    }
 }
+
+/* --- END OF RESPONSIVE MEDIA QUERIES --- */
